@@ -1,0 +1,208 @@
+                              Manual testing Assignment.
+                       =====================================
+
+1)Functional Testing.
+-------------------
+  Functional Testing is defined as the given application functionality is working fine 
+or not.
+  And the manual and automation testings are included in this method.
+
+2)Non functional Testing.
+-----------------------
+Non-functional Testing is one of the software testing methods. In this way, we are checking performance/load testing and usability testing (UI-page like look and feel) are considered. By using tools like Jmeter. And the tests may be performed by a separate team.
+
+3)black-box testing
+----------------------
+  Is a software testing method. In this case, testers will evaluate only the given functionality working fine or not in without internal code and structure
+Unit, regression, and user acceptance tests also include this approach.
+
+4)White box Testing
+----------------------
+ White box testing is performed by the developer team, and the particular developing module functionality working fine or not.
+And the Modules like search, login, add to card.
+
+5)unit Testing
+----------------
+Unit testing is a single component testing. A developer will be made through the test.
+
+6)Integration testing
+----------------------
+two are more components integrated together and then tested
+ login and search working- fine or not
+ search and add to card  -fine or not
+
+7)System testing
+------------------
+   Testing the software by integrating all the module this also called end to end testing
+modules like(login,search,add to card,payment,confirmation)
+
+8)User acceptance testing
+-------------------------
+  To check the application is working or not according to requirement.
+  End user testing.
+9)live environment/production testing
+--------------------------------------
+  Test the application directly on the live environment
+
+10)10.ECP(Equivalent Case Partitions)
+--------------------------------------------
+   Equally categorising the requirement based on the positive and negative  range.
+  E.g.Password must contains 8 or more characters
+  If it is less than 8 character, it will show error.
+
+
+11)Beta testing
+-------------------------------------------------------
+		Tested by specific users in beta version.
+
+12)BVA( Boundary Value Analysis)
+-------------------------------------------------------
+		Testing at boundaries.
+		E.g.Range (1 to 100).
+
+13 Decision table
+------------------------------------------------------
+		It checks many conditions.
+		True      -      true       - true    = pass
+	Example. Username - password - login  = pass
+		True -    false-   true       = fail
+	Example. Username- password -login    = fail.
+
+14) State transition technique
+----------------------------------------------------------
+		When two or more value entered
+		The last value must be positive even first two is negative.
+
+15) Error guessing
+---------------------------------------------------
+   		Finding the bug by guessing(mostly experienced only).
+
+16) Bug life cycle
+----------------------------------------------------
+A process in which defect goes through different stages in its entire life from one process to another.
+
+17) Bug severity and priority
+---------------------------------------------------
+      		Severity=condition of bug
+		Priority=time to clear the bug
+
+18) Real time example different bug(critical,high,medium,low)
+-------------------------------------------------------------
+	Air India
+   	 	Critical=payment unsuccessful
+		High=payment successful but passenger name not displayed
+		Medium=no proper alignment
+		Low=any spelling mistakes in any component
+
+19) SDLC=Software Development Life Cycle
+------------------------------------------------
+Business Analyst
+-----------------
+Get requirements from the client and prepare the document knows as business req document.
+Share the document to developing and testing team
+	
+Desing
+----------
+After receiving document from BA, development team started to design the architecture of the application.
+
+Development phase
+-----------------
+Actual development= Actual coding would be the developer
+Unit testing=testing the component developer.
+Development environment
+-----------------------
+Developer has different environment to develop the component
+dev.amazon.com
+Testing phase
+--------------------
+Test the application is working fine or not
+Testing environment
+Execute the test case and raising bugs in case of any issues
+Deployment phase
+-----------------------------
+The code will be deployed to the live environment
+Maintenance phase
+-----------------------------
+Its about enhancing the future
+		
+
+20. STLC=Software Testing Life Cycle
+Requirement analysis
+---------------------
+Go through and understand the document and requirement
+Make note of doubts
+Explanation and doubt will be clarified
+Test planning phase
+--------------------
+Estimation =estimate how much time and resources we need
+Schedule=schedule the start and ending of testing
+Strategy=how we are going to perform the testing
+Test case preparation
+------------------------
+Test scenario=high level information about testing
+Test case=step by step information about testing
+RTM=mapping a requirement
+Test environment set up
+------------------------
+Checking the url with our credentials is working fine or not
+Test execution
+-----------------
+Execute test and taking screenshots
+Execute result document
+Raise bugs in JIRA
+
+Test closure
+---------------
+We will check the test summary and decide we can give sign off
+Deployment
+
+21) Smoke testing
+---------------------
+            	To check stability of application by navigation
+
+22) Sanitary testing
+------------------------
+      		To check the important functionalities of the application (name,pass,confirm,transfer)
+
+23) Regressing testing
+----------------------------
+		Checking the each and every part of the application
+24) Retesting 
+-----------------------------
+		Checking only the functionality related to bug
+25) Monkey testing
+------------------------------
+		Checking application by random actions
+26) Formal testing
+--------------------------
+		Check the application with the reference of test case
+27) Informal testing
+------------------------
+		Check the application without test case
+28) Waterfall model in SDLC
+--------------------------
+		Process in linear way
+		If you complete one process and then go with other step
+
+
+
+
+		
+		 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
