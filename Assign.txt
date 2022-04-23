@@ -21,6 +21,9 @@ Unit, regression, and user acceptance tests also include this approach.
  White box testing is performed by the developer team, and the particular developing module functionality working fine or not.
 And the Modules like search, login, add to card.
 
+19.static and dynamic 
+
+
 5)unit Testing
 ----------------
 Unit testing is a single component testing. A developer will be made through the test.
